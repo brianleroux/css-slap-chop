@@ -1,0 +1,27 @@
+.klass {
+    font-size:1em;
+    color:red;
+}
+
+.nest .klass {
+    color:blue;
+}
+
+#ident {
+    color:blue;
+}
+
+ul li a {
+    text-decoration:none;
+}
+
+ul li a:hover {
+    text-decoration:underline;
+}
+
+.hidden-thing {
+    display:none;
+}
+
+.ignore-one {}
+#ignore-two {}
