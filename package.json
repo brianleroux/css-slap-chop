@@ -2,7 +2,10 @@
   "author": "brianleroux <b@brian.io> (brian.io)",
   "name": "css-slap-chop",
   "description": "remove unused css selectors",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "bin": {
+    "css-slap-chop": "./bin/css-slap-chop"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/brianleroux/css-slap-chop.git"
