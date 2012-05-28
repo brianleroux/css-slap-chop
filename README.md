@@ -1,10 +1,10 @@
 # CSS Slap Chop!
 
-Findin' unused css selectors in your html, slappin' them around, and choppin' em out.
+Findin' unused css selectors in your HTML, slappin' them around, and choppin' 'em out.
 
-## Prequeisits
+## Prerequisites
 
-1. Love. You must love the Pandas.
+1. Love. You must love the pandas.
 2. NodeJS. You must install NodeJS.
 
 ### Install
@@ -13,25 +13,25 @@ Findin' unused css selectors in your html, slappin' them around, and choppin' em
 
 #### Use it
 
-There is a Command Line Interface tool. Don't be bummed! The CLI is the most powerful interface of all. 
+There is a command-line interface (CLI) tool. Don't be bummed! The CLI is the most powerful interface of all. 
 
     css-slap-chop
 
 That was fun! No problem. Now we can go and get CSS Slap Chop to show us a more friendly CSS document.
 
-    css-slap-chop -css ./app.css -html ./index.html
+    css-slap-chop --css ./app.css --html ./index.html
 
 Cool! If you want to create a file just use some UNIX IO redirect magic.
 
-    css-slap-chop -css ./app.css -html ./index.html > ./tidy.css
+    css-slap-chop --css ./app.css --html ./index.html > ./tidy.css
 
 Gnar.
 
 ### FAQ
 
-Oh no! It fucking removed the stuff I add dynamically with captain AJAX what will I do?
+Oh no! It fucking removed the stuff I add dynamically with Captain AJAX! What will I do?
 
-    Chill bitch! CSS Slap Chop can optionally take a JSON file contiaining selectors you want it to ignore. 
+    Chill, bitch! CSS Slap Chop can optionally take a JSON file contiaining selectors you want it to ignore. 
 
 ### Hack it
 
