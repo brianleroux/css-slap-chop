@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/brianleroux/css-slap-chop.png)](http://travis-ci.org/brianleroux/css-slap-chop)
 # CSS Slap Chop!
 
 Findin' unused css selectors in your html, slappin' them around, and choppin' em out.
