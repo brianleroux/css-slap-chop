@@ -19,6 +19,10 @@ ul li a:hover {
     text-decoration:underline;
 }
 
+ul li a:active {
+    color:red;
+}
+
 .hidden-thing {
     display:none;
 }
