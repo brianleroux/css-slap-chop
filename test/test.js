@@ -12,13 +12,13 @@ describe('panda', function(){
     describe('used()', function() {
         it('should return all used rules', function(done){
             panda.used({css:css, html:html}, function(err, used) {
-                used.length.should.eql(5)
+                used.length.should.eql(6)
                 done()
             })
         })
         it('should return all used rules with ignore rules', function(done){
             panda.used({css:css, html:html, ignore:ignore}, function(err, used) {
-                used.length.should.eql(7)
+                used.length.should.eql(8)
                 done()
             })
         })
