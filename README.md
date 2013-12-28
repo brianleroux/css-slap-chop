@@ -19,11 +19,11 @@ There is a Command Line Interface tool. Don't be bummed! The CLI is the most pow
 
 That was fun! No problem. Now we can go and get CSS Slap Chop to show us a more friendly CSS document.
 
-    css-slap-chop -css ./app.css -html ./index.html
+    css-slap-chop --css ./app.css --html ./index.html
 
 Cool! If you want to create a file just use some UNIX IO redirect magic.
 
-    css-slap-chop -css ./app.css -html ./index.html > ./tidy.css
+    css-slap-chop --css ./app.css --html ./index.html > ./tidy.css
 
 Gnar.
 
